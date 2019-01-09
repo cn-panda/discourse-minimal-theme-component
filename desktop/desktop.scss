@@ -20,7 +20,11 @@ span.badge-category .category-name {
   display: none !important;
 }
   
-.badge-wrapper.bullet span.badge-category, .cat {
+.badge-wrapper {
+    font-weight: normal;
+}
+
+.badge-wrapper.bullet span.badge-category, .cat, .badge-wrapper.bullet .d-icon {
   color: #339900;
 }
   
