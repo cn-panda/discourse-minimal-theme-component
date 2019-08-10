@@ -53,7 +53,9 @@
   {{#if showOpLikes}}
      {{raw "topic-list-header-column" sortable='true' order='op_likes' number='true' forceName='Likes'}}
   {{/if}}
-  
+    {{#if showOpLikes}}
+     {{raw "topic-list-header-column" sortable='true' order='op_likes' number='true' forceName='Likes'}}
+  {{/if}}
 
 {{raw "topic-list-header-column" sortable='true' number='true' order='posts' forceName='最后回复'}}
  {{raw "topic-list-header-column" sortable=sortable number='true' order='views' name='views'}}
