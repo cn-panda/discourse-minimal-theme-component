@@ -49,8 +49,9 @@
      {{raw "topic-list-header-column" sortable='true' order='likes' number='true' forceName='Likes'}}
   {{/if}}
   {{#if showOpLikes}}
-     {{raw "topic-list-header-column" sortable='true' order='op_likes' number='true' forceName='Likes'}}
+  {{number topic.views numberKey="views_long"}}
   {{/if}}
+  
 
 {{raw "topic-list-header-column" sortable='true' number='true' order='posts' forceName='Author'}}
  {{raw "topic-list-header-column" sortable=sortable number='true' order='views' name='replies'}}
