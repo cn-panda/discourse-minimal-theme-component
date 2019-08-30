@@ -25,7 +25,7 @@ span.badge-category .category-name {
 }
 
 .badge-wrapper.bullet span.badge-category, .cat, .badge-wrapper.bullet .d-icon {
-  color: #339900;
+  color: #090;
 }
   
 .cat {
@@ -38,10 +38,16 @@ span.badge-category .category-name {
 .topic-statuses { 
   
   display: inline-block;    
-  color: #339900;
+  color: #e45735;
   
   i.fa {
-    color: #339900;
+    color: #e45735;
   } 
+}
 
+.title-t a.title { 
+ color: #03689a !important;
+ font-weight: 400;
+   &:visited {color: #919191 !important;}
+   &:hover {color: #f56400 !important;}
 }
